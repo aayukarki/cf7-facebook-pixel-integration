@@ -29,14 +29,14 @@ The CF7 Facebook Pixel Integration plugin allows you to track form submissions f
 
 1. Edit the Contact Form 7 form you want to track.
 2. In the form editor, add input name details to corresponding fields. For example:
-   Event Name is Lead by default
-   Full Name Input Name - your-name (leave blank if using First Name and Last Name)
-   First Name Input Name - your-first-name (leave blank if using Full Name)
-   Last Name Input Name - your-last-name (leave blank if using Full Name)
-   Email Input Name - your-email
-   Phone Input Name - your-phone
-   City Input Name - your-city
-   Postcode Input Name - your-postcode
+   - Event Name is Lead by default
+   - Full Name Input Name - your-name (leave blank if using First Name and Last Name)
+   - First Name Input Name - your-first-name (leave blank if using Full Name)
+   - Last Name Input Name - your-last-name (leave blank if using Full Name)
+   - Email Input Name - your-email
+   - Phone Input Name - your-phone
+   - City Input Name - your-city
+   - Postcode Input Name - your-postcode
 3. You can customize the event name by changing "Contact Form Submission" to any other name you prefer.
 
 ## How it Works
