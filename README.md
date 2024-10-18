@@ -1,5 +1,15 @@
 # CF7 Facebook Pixel Integration
 
+## Installation
+
+1. Go to the [GitHub repository](https://github.com/your-username/cf7-facebook-pixel-integration).
+2. Click on the "Code" button and select "Download ZIP".
+3. Download the ZIP file to your local machine.
+4. Extract the contents of the ZIP file.
+5. Upload the extracted folder to the `/wp-content/plugins/` directory of your WordPress installation.
+6. Activate the plugin through the 'Plugins' screen in WordPress.
+
+
 This plugin integrates Facebook Pixel tracking with Contact Form 7 submissions in WordPress.
 
 ## Description
@@ -8,7 +18,7 @@ The CF7 Facebook Pixel Integration plugin allows you to track form submissions f
 
 ## Installation
 
-1. Upload the plugin files to the `/wp-content/plugins/cf7-facebook-pixel-integration` directory, or install the plugin through the WordPress plugins screen directly.
+1. Upload the plugin through the WordPress plugins screen directly.
 2. Activate the plugin through the 'Plugins' screen in WordPress.
 
 ## Usage
