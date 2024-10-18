@@ -4,9 +4,8 @@
 
 2. Click on the "Code" button and select "Download ZIP".
 3. Download the ZIP file to your local machine.
-5. Upload the zip file to the `/wp-content/plugins/` directory of your WordPress installation.
-6. Activate the plugin through the 'Plugins' screen in WordPress.
-
+4. Upload the zip file to the `/wp-content/plugins/` directory of your WordPress installation.
+5. Activate the plugin through the 'Plugins' screen in WordPress.
 
 This plugin integrates Facebook Pixel tracking with Contact Form 7 submissions in WordPress.
 
@@ -29,10 +28,15 @@ The CF7 Facebook Pixel Integration plugin allows you to track form submissions f
 ## Configuration
 
 1. Edit the Contact Form 7 form you want to track.
-2. In the form editor, add the following hidden field to your form:
-   ```
-   [hidden pixel-event-name "Contact Form Submission"]
-   ```
+2. In the form editor, add input name details to corresponding fields. For example:
+   Event Name is Lead by default
+   Full Name Input Name - your-name (leave blank if using First Name and Last Name)
+   First Name Input Name - your-first-name (leave blank if using Full Name)
+   Last Name Input Name - your-last-name (leave blank if using Full Name)
+   Email Input Name - your-email
+   Phone Input Name - your-phone
+   City Input Name - your-city
+   Postcode Input Name - your-postcode
 3. You can customize the event name by changing "Contact Form Submission" to any other name you prefer.
 
 ## How it Works

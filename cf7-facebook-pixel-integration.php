@@ -111,7 +111,7 @@ function cf7_send_to_fb_pixel_conversion($cf7) {
     $pixelData = array(
         'token'      => !empty($options['fb_pixel_token']) ? $options['fb_pixel_token'] : (!empty($global_options['fb_pixel_token']) ? $global_options['fb_pixel_token'] : ''),
         'pixel_id'   => !empty($options['fb_pixel_id']) ? $options['fb_pixel_id'] : (!empty($global_options['fb_pixel_id']) ? $global_options['fb_pixel_id'] : ''),
-        'event_name' => !empty($options['event_name']) ? $options['event_name'] : 'Purchase',
+        'event_name' => !empty($options['event_name']) ? $options['event_name'] : 'Lead',
         'fbp'        => isset($_COOKIE['_fbp']) ? $_COOKIE['_fbp'] : '',
         'fbc'        => isset($_COOKIE['_fbc']) ? $_COOKIE['_fbc'] : '',
         'first_name' => '',
@@ -318,7 +318,7 @@ function cf7_fb_pixel_settings_page() {
                 <table class="form-table">
                     <tr>
                         <th scope="row"><label for="event_name">Event Name</label></th>
-                        <td><input name="event_name" type="text" id="event_name" class="regular-text" value="Purchase"></td>
+                        <td><input name="event_name" type="text" id="event_name" class="regular-text" value="Lead"></td>
                     </tr>
                     <tr>
                         <th scope="row"><label for="full_name">Full Name Input Name</label></th>
@@ -366,7 +366,7 @@ function cf7_fb_pixel_settings_page() {
         console.log('Options for form ' + formId + ':', options); // Debug log
         
         // Populate form fields with existing data
-        document.getElementById('event_name').value = options.event_name || 'Purchase';
+        document.getElementById('event_name').value = options.event_name || 'Lead';
         document.getElementById('full_name').value = options.full_name || '';
         document.getElementById('first_name').value = options.first_name || '';
         document.getElementById('last_name').value = options.last_name || '';
