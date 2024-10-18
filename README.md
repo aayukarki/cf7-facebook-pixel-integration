@@ -2,11 +2,9 @@
 
 ## Installation
 
-1. Go to the [GitHub repository](https://github.com/your-username/cf7-facebook-pixel-integration).
 2. Click on the "Code" button and select "Download ZIP".
 3. Download the ZIP file to your local machine.
-4. Extract the contents of the ZIP file.
-5. Upload the extracted folder to the `/wp-content/plugins/` directory of your WordPress installation.
+5. Upload the zip file to the `/wp-content/plugins/` directory of your WordPress installation.
 6. Activate the plugin through the 'Plugins' screen in WordPress.
 
 
